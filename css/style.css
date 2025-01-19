@@ -1,0 +1,426 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --bs-font-1: "Roboto Serif", serif;
+    --bs-font-2:  "Rubik", serif;
+    --bs-color-1: #844fee;
+    --bs-color-2: #cecece;
+}
+.text-1{
+    font-family: var(--bs-font-1);
+}
+.text-2{
+    font-family: var(--bs-font-2);
+}
+.color-1{
+    color: var(--bs-color-1);
+}
+.color-2{
+    color: var(--bs-color-2);
+}
+#body{
+    background-image: url("../images/body-bg.png");
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-repeat: repeat; /* Prevent the background image from repeating */
+}
+
+#logo{
+    height: 80px;
+}
+.navbar-nav .nav-link:hover {
+    color: #844fee;
+}
+.span{
+    color: #844fee;
+}
+.btn-1{
+    background-color: #844fee;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.btn-1:hover{
+    background-color: #ffffff;
+    color: #844fee;
+    border: 1px solid #844fee;
+}
+
+.btn-2{
+    background-color: #ffffff;
+    color: #844fee;
+    border: 1px solid #844fee;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.btn-2:hover {
+    background-color: #844fee;
+    color: #ffffff;
+    border: none;
+}
+
+#r-b{
+  color: #844fee;
+}
+#r-b:hover{
+  color: #ffffff;
+}
+
+
+.circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #844fee;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+  }
+  
+  .how-it-works.row .col-2 {
+    align-self: stretch;
+  }
+  .how-it-works.row .col-2::after {
+    /* content: ""; */
+    /* position: absolute; */
+    border-left: 3px solid #844fee;
+    z-index: 1;
+  }
+  .how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  .how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+  }
+  .how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+  
+  
+  .timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  .timeline hr {
+    border-top: 3px solid #844fee;
+    margin: 0;
+    top: 17px;
+    position: relative;
+    opacity: 05;
+  }
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .timeline .corner {
+    border: 3px solid #844fee;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .timeline .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+  
+#s-card{
+    padding-top: 10px;
+    height: 65px;
+    width: 65px;
+    align-self: center;
+    
+}
+#c-card{
+    height:300px;
+}
+#c-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    background-color:#ffffff;
+}
+
+
+/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #000428, #004683);
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.container .row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    padding: 0;
+    margin: 0 !important;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 280px;
+    max-height: 340px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.card .card-image {
+    width: 100%;
+    max-height: 340px;
+}
+
+.card .card-image img {
+    width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+}
+
+.card .card-content {
+    position: absolute;
+    bottom: -180px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    min-height: 140px;
+    width: 100%;
+    transition: bottom .4s ease-in;
+    box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card:hover .card-content {
+    bottom: 0px;
+}
+
+.card:hover .card-content h4,
+.card:hover .card-content h5 {
+    transform: translateY(10px);
+    opacity: 1;
+}
+
+.card .card-content h4,
+.card .card-content h5 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    transition: 0.8s;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateY(-40px);
+    transition-delay: 0.2s;
+}
+
+.card .card-content h5 {
+    transition: 0.5s;
+    font-weight: 200;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+.card .card-content .social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+
+.card .card-content .social-icons li {
+    margin: 10px;
+    transition: 0.5s;
+    transition-delay: calc(0.15s * var(--i));
+    transform: translateY(50px);
+}
+
+
+.card:hover .card-content .social-icons li {
+    transform: translateY(20px);
+}
+
+.card .card-content .social-icons li a {
+    color: #fff;
+}
+
+.card .card-content .social-icons li a span {
+    font-size: 1.3rem;
+}
+
+@media(max-width: 991.5px) {
+    .container {
+        margin-top: 20px;
+    }
+
+    .container .row .col-lg-4 {
+        margin: 20px 0px;
+    }
+}
+
+#p-card {
+  width: 100%; /* Make the image take the full width of the card */
+  height: 100%; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensure the image covers the entire area without stretching */
+}
+.card-image {
+  width: 100%;
+  height: 500px; /* Set a fixed height for the card image container */
+  overflow: hidden; /* Hide any overflow */
+}
+
+
+
+/* Contact Form */
+.contact_form {
+  background-color: #f9f9f9; /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact_form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact_form .form-control {
+  border: 1px solid #cecece; /* Light border color */
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.contact_form .form-control:focus {
+  border-color: #844fee; /* Focus border color */
+  box-shadow: 0 0 5px rgba(132, 79, 238, 0.5); /* Focus shadow */
+}
+
+.contact_form .btn-submit {
+  background-color: #844fee; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact_form .btn-submit:hover {
+  background-color: #ffffff;
+    color: #844fee;
+    border: 1px solid #844fee;
+}
+
+.contact_info .info_item {
+  margin-bottom: 20px;
+}
+
+.contact_info .info_item h6 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact_info .info_item p {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+/* Footer */
+#f-logo{
+  height: 80px;
+}
+#footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust height as needed */
+}
+
+
+/* AOS Effects */
+.btn-1, .btn-2 {
+  transition: transform 0.3s ease;
+}
+.btn-1:hover, .btn-2:hover {
+  transform: scale(1.1);
+}
+
+
+#body {
+  background-attachment: fixed;
+}
+
+.card {
+  transition: box-shadow 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Images effects */
+/* General styles for images */
+.img-fluid {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for images */
+.img-fluid:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific styles for different sections if needed */
+#home .img-fluid:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+#about .img-fluid:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+#projects .img-fluid:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+
+
+/* CSS1 */
+#css1{
+  height: 700px;
+  width: 280px;
+}

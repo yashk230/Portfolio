@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../1. Agriculture/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  
+  <body>
+    <div class="container-fluid" id="header">
+        <div class="row">
+            <div class="col-12 p-0 ">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid  offset-1 ">
+               <img  class="navbar-brand "  src="./images/logo.png" alt="" srcset="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+                  <li class="nav-item px-3 text-warning">
+                    <a class="nav-link active " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" aria-current="page" href="#">AboutUS</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link " aria-current="page" href="#">Our Services</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link " aria-current="page" href="#">Testimonials</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link " aria-current="page" href="#">Blog</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown px-3">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link">Contact</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        </div><!--end of col-->
+        </div><!--end of row-->
+    </div><!--end of header-->
+
+
+    <div class="container-fluid" id="hero">
+      <div class="row">
+        <div class="col-12 p-0">
+          <div id="carouselExampleCaptions" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="hero_1" >
+                <!-- <img src="#" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-flex  flex-column justify-content-center align-items-center h-100 lh-lg">
+                  <h1>Farming is the best solution to world starvation</h1>
+                  <p>It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain.</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="hero_2">
+                <!-- <img src="./images/hero_2.jpg" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-flex  flex-column justify-content-center align-items-center h-100 lh-lg">
+                  <h1>Organic vegetables are good for health</h1>
+                  <p>For in our free time, when we are free to choose, and nothing prevents us from doing what pleases us the most.</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="hero_3">
+                <!-- <img src="./images/hero_3.jpg" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-flex  flex-column justify-content-center align-items-center h-100 lh-lg">
+                  <h1>Providing Fresh Produce Every Single Day</h1>
+                  <p>I will explain the sayings of the happy life. For no one despises or hates or runs away from pleasure itself because it is pleasure.</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="hero_4">
+                <!-- <img src="./images/hero_4.jpg" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-flex  flex-column justify-content-center align-items-center h-100 lh-lg">
+                  <h1>Farming as a Passion</h1>
+                  <p>Nor, moreover, is there any one who wants to pursue pain because it is pain, but because it is never his.</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="hero_5">
+                <!-- <img src="./images/hero_5.jpg" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-flex  flex-column justify-content-center align-items-center h-100 lh-lg">
+                  <h1>Good Food For All</h1>
+                  <p>It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div><!--end of col-->
+      </div><!--end of row-->
+    </div><!--end of hero-->
+
+
+
+    <div class="container-fluid" id="services">
+      <div class="container ">
+        <div class="row g-0">
+
+          <div class="col-12 text-center py-5">
+            <h2>Services</h2>
+            <h1>Providing Fresh Produce Every Single Day</h1>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6 col-lg-3 ">
+            <div class="card h-100 p-3 rounded-0">
+              <img src="./images/planting.png" class="card-img-top w-25 " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Planting</h5>
+                <p class="card-text">The pregnant members of the sauce drive tesq stratum orc than arrows wise.</p>
+              </div>
+            </div>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6 col-lg-3 ">
+            <div class="card h-100 p-3 rounded-0">
+              <img src="./images/mulching.png" class="card-img-top w-25 " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mulching</h5>
+                <p class="card-text">The pregnant members of the sauce drive tesq stratum orc than arrows wise.</p>
+              </div>
+            </div>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 p-3 rounded-0">
+              <img src="./images/plowing.png" class="card-img-top w-25" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Plowing</h5>
+                <p class="card-text">The pregnant members of the sauce drive tesq stratum orc than arrows wise.</p>
+              </div>
+            </div>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 p-3 rounded-0">
+              <img src="./images/mowing.png" class="card-img-top w-25" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mowing</h5>
+                <p class="card-text">The pregnant members of the sauce drive tesq stratum orc than arrows wise.</p>
+              </div>
+            </div>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 p-3 rounded-0">
+              <img src="./images/seeding.png" class="card-img-top w-25" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Seeding</h5>
+                <p class="card-text">The pregnant members of the sauce drive tesq stratum orc than arrows wise.</p>
+              </div>
+            </div>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 p-3 rounded-0">
+              <img src="./images/fresh vegetables .png" class="card-img-top w-25 " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fresh Vegetables</h5>
+                <p class="card-text">The pregnant members of the sauce drive tesq stratum orc than arrows wise.</p>
+              </div>
+            </div>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 p-3 rounded-0">
+              <img src="./images/watering.png" class="card-img-top w-25" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Watering</h5>
+                <p class="card-text">The pregnant members of the sauce drive tesq stratum orc than arrows wise.</p>
+              </div>
+            </div>  
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 p-3 rounded-0">
+              <img src="./images/selling vegetables .png" class="card-img-top w-25" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Selling vegetables</h5>
+                <p class="card-text">The pregnant members of the sauce drive tesq stratum orc than arrows wise.</p>
+              </div>
+            </div>
+          </div><!--end of col-->
+
+        </div><!--end of row-->
+      </div><!--end of container-->
+    </div><!--end of services-->
+
+
+    <div class="container-fluid bg-success p-3" id="why_choose_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 ">
+            <img src="./images/why_choose_us.jpg" class="img-fluid ">
+          </div><!--end of col-->
+          <div class="col-12 col-md-6 py-5">
+            <h4 class="text-light opacity-50 ">WHY CHOOSE US</h4>
+            <h2 class="text-white">More than 50 years of experience in the agriculture industry</h2>
+            <p class="text-light opacity-50 py-2 fs-5">Will you blame me for being hardworking? Let there be no error in the flattery of any one of us who perceives as if he were the least of us.</p>
+
+            <div class="row py-3">
+              <div class="col-1">
+                <i class="fas fa-cloud-showers-heavy fs-1 text-white"></i>
+              </div>
+              <div class="col-11 ">
+                <h5 class="text-white">Plants need rain</h5>
+                <p class="text-light opacity-50 lh-1">The customer is very happy.</p>
+              </div>
+            </div><!--end of row-->
+
+            <div class="row py-3">
+              <div class="col-1">
+                <i class="far fa-heart  fs-1 text-white"></i>
+              </div>
+              <div class="col-11 ">
+                <h5 class="text-white">Love organic foods</h5>
+                <p class="text-light opacity-50 lh-1">The customer is very happy.</p>
+              </div>
+            </div><!--end of row-->
+
+            <div class="row py-3">
+              <div class="col-1">
+                <i class="fas fa-home fs-1 text-white"></i>
+              </div>
+              <div class="col-11 ">
+                <h5 class="text-white">Sell ​​your car</h5>
+                <p class="text-light opacity-50 lh-1">The customer is very happy.</p>
+              </div>
+            </div><!--end of row-->
+
+          </div><!--end of col-->
+        </div><!--end of row-->
+      </div><!--end of container-->
+    </div><!--why_choose_us-->
+
+
+    <div class="container-fluid my-5 py-2" id="Plants_make _life_better">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+            <h3 class="text-success py-3">Plants Make Life Better</h3>
+            <p class="fs-6">The company itself is a very successful company. For let it be pleasing <br> to the necessities, and he who wants the pleasure of life will be  <br>repulsed by the architect, who provides  for no less harsh<br> conveniences! It is held, it repels some of that nothing.</p>
+            <p class="fs-6 "><i class="fas fa-check text-success"></i> The customer is very happy </p>
+            <p class="fs-6 "><i class="fas fa-check text-success"></i> He would like to explain the repulsion of life</p>
+            <p class="fs-6 "><i class="fas fa-check text-success"></i> He repels some of that</p>
+            <button type="button" class="btn btn-success w-25 p-3 my-3">GET IN TOUCH</button>
+          </div><!--end of col-->
+          <div class="col-12 col-md-6 ">
+            <img src="./images/Plants_make _life_better.jpg" class=" img-fluid">
+          </div><!--end of col-->
+        </div><!--end of row-->
+      </div><!--end of cantainer-->
+    </div><!--end of Plants_make _life_better-->
+
+
+    <div class="container-fluid bg-dark py-5" id="services_2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h4 class=" text-white opacity-50">SERVICES</h4>
+            <h2 class="text-white">His needs are met</h2>
+          </div><!-- end of col-->
+
+          <div class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="./images/services2.1.jpeg" class="img-fluid "></div>
+
+                <div class="carousel-item "><img src="./images/services2.2.jpeg" class="img-fluid"></div>
+
+                <div class="carousel-item "><img src="./images/services2.3.jpeg" class="img-fluid" ></div>
+
+                <div class="carousel-item"><img src="./images/services2.4.jpeg" class="img-fluid" ></div>
+
+                <div class="carousel-item"><img src="./images/services2.5.jpg" class="img-fluid" ></div>
+
+                <div class="carousel-item"><img src="./images/services2.1.jpeg" class="img-fluid"></div>
+
+                <div class="carousel-item"><img src="./images/services2.2.jpeg" class="img-fluid" ></div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden ">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div><!--end of col-->
+
+        </div><!-- end of row-->
+      </div><!--end of conatainer-->
+    </div><!-- end of services_2-->
+
+
+    <div class="container-fluid my-5" id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 py-5">
+            <h2 class="text-center opacity-75">Testimonials</h2>
+            <h1 class="text-center">His needs are met</h1>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6">
+            <div class="card border-0">
+              <img src="./images/testimonials-1.jpg" class=" w-25 rounded-circle" alt="...">
+                <div class="card-body">
+                  <p class="card-text fs-5">"It's a pain in the ass, it's going to be followed by an adipiscing developer." Do they provide for those who are mildly afflicted?</p>
+                  <p class="text-success fs-5">JAMES SMITH</p>
+                </div>
+              </div>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6">
+            <div class="card border-0">
+              <img src="./images/testimonials-2.jpg" class="w-25 rounded-circle" alt="...">
+                <div class="card-body">
+                  <p class="card-text fs-5">"It's a pain in the ass, it's going to be followed by an adipiscing developer." Do they provide for those who are mildly afflicted?</p>
+                  <p class="text-success fs-5">KATE SMITH</p>
+                </div>
+              </div>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6">
+            <div class="card border-0">
+              <img src="./images/testimonials-3.jpg" class=" w-25 rounded-circle" alt="...">
+                <div class="card-body">
+                  <p class="card-text fs-5">"It's a pain in the ass, it's going to be followed by an adipiscing developer." Do they provide for those who are mildly afflicted?</p>
+                  <p class="text-success fs-5">CLARIE ANDERSON</p>
+                </div>
+              </div>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-6">
+            <div class="card border-0">
+              <img src="./images/testimonials-4.jpg" class="w-25 rounded-circle" alt="...">
+                <div class="card-body">
+                  <p class="card-text fs-5">"It's a pain in the ass, it's going to be followed by an adipiscing developer." Do they provide for those who are mildly afflicted?</p>
+                  <p class="text-success fs-5">DAN SMITH</p>
+                </div>
+              </div>
+          </div><!--end of col-->
+
+
+        </div><!-- end of row-->
+      </div><!--end of conatiner-->
+    </div><!--end of testimonial-->
+
+
+    <div class="container-fluid my-5" id="recent_post">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center opacity-75">Recent Posts</h2>
+            <h1 class="text-center">His needs are met</h1>
+
+            <div class="row py-3">
+            <div class="col-12 col-md-4">
+              <div class="card h-100" >
+                <img src="./images/blog-1.jpg"><p class="img-fluid bg-success text-light position-absolute top-50 end-0 my-2 px-3 py-2">DECEMBER 12</p>
+                <div class="card-body">
+                  <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#" class="text-dark"><i class="far fa-user text-dark"></i> Julia Parker</a></li>
+                      <li class="breadcrumb-item active" aria-current="page"><i class="far fa-folder-open"></i>Politics</li>
+                    </ol>
+                  </nav>
+                  <button type="button" class="btn btn-link py-2 px-0 text-dark opacity-75">Read More<i class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div><!--end of col-->
+
+            <div class="col-12 col-md-4">
+              <div class="card h-100" >
+                <img src="./images/blog-2.jpg"><p class="img-fluid bg-success text-light position-absolute top-50 end-0 my-2 px-3 py-2">JULY 17</p>
+                <div class="card-body">
+                  <p class="card-text fs-5">And to be repulsed by trouble which is but all</p>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#" class="text-dark"><i class="far fa-user text-dark"></i> Mario Douglas</a></li>
+                      <li class="breadcrumb-item active" aria-current="page"><i class="far fa-folder-open"></i>Sports</li>
+                    </ol>
+                  </nav>
+                  <button type="button" class="btn btn-link py-2 px-0 text-dark opacity-75">Read More<i class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div><!--end of col-->
+
+            <div class="col-12 col-md-4">
+              <div class="card h-100" >
+                <img src="./images/blog-3.jpg"><p class="img-fluid bg-success text-light position-absolute top-50 end-0 my-2 px-3 py-2">SEPTEMBER 05</p>
+                <div class="card-body">
+                  <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#" class="text-dark"><i class="far fa-user text-dark"></i> Lisa Hunter</a></li>
+                      <li class="breadcrumb-item active" aria-current="page"><i class="far fa-folder-open"></i>Economics</li>
+                    </ol>
+                  </nav>
+                  <button type="button" class="btn btn-link py-2 px-0 text-dark opacity-75">Read More<i class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div><!--end of col-->
+
+          </div>  
+
+          </div><!-- end of col-->
+        </div><!-- end of row-->
+      </div><!-- end of container-->
+    </div><!--end of recent_post-->
+
+
+    <div class="container-fluid"  id="form">
+      <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+          <p class=" opacity-75">The company itself is a very successful company. They do not know, he will criticize!</p>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-6 ">
+          <input type="email" class="py-3 px-5 w-75">
+          <button class="p-3 bg-success text-white border-0 ">Subscribe</button>
+        </div><!--end of col-->
+      </div><!--end of row-->
+    </div>
+    </div><!--form-->
+
+
+    <div class="container-fluid text-bg-dark my-5 py-5" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <h3 class="py-2">AgriCulture</h3>
+            <p class="py-2">A108 Adam Street <br>New York, NY 535022</p>
+            <p>Phone: +1 5589 55488 55 <br>Email: info@example.com</p>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-3 col-lg-2">
+            <h5 class="py-2">Useful links</h5>
+            <p>Home</p>
+            <p>About us</p>
+            <p>Services</p>
+            <p>Terms of service</p>
+            <p>Privacy policy</p>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-3 col-lg-2">
+            <h5 class="py-2">Our Services</h5>
+            <p>Web Design</p>
+            <p>Web Development</p>
+            <p>Product Management</p>
+            <p>Marketing</p>
+            <p>Graphic Design</p>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-3 col-lg-2">
+            <h5 class="py-2">Here it is resolved</h5>
+            <p>We are rightfully accused of harassment</p>
+            <p>We will accept the most worthy</p>
+            <p>A distinction is accepted</p>
+            <p>Beloved</p>
+            <p>Let it be followed</p>
+          </div><!--end of col-->
+
+          <div class="col-12 col-md-3 col-lg-2 ">
+            <h5 class="py-2">We have him</h5>
+            <p>She herself</p>
+            <p>The praises of pain</p>
+            <p>Money</p>
+            <p>Troddles</p>
+            <p>I bend</p>
+          </div><!--end of col-->
+        </div><!--end of row-->
+
+        <div class="row py-5">
+          <div class="col-12 col-md-6 text-center text-success fs-3">
+            <i class="fab fa-xing"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <p>© Copyright MyWebsite . All Rights Reserved</p><p class="text-success">Designed by BootstrapMade</p>
+          </div>
+          
+        </div><!--end of row-->
+      </div><!--end of container-->
+    </div><!--end of footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

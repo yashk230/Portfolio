@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction template</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css"><!--bootstrap-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet"><!--Google Fonts-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!--Font awesome-->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--AOS-->
+
+    <link rel="stylesheet" href="./css/style.css"><!--CSS-->
+
+
+</head>
+
+<body>
+  <div class="container-fluid" id="header">
+    <div class="row ">
+      <div class="col-12 p-0">
+        <nav class="navbar navbar-expand-lg bg-light p-4  fixed-top">
+          <div class="container-fluid  offset-1 ">
+            <a href="" class="text-decoration-none fs-4 text-dark fw-bold font text-navfont-family-3 "> UpConstruction. </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+                <li class="nav-item px-3 text-warning">
+                  <a class="nav-link active  text-navfont-family-3 " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link text-navfont-family-3 " aria-current="page" href="#">AboutUS</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link text-navfont-family-3 " aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link text-navfont-family-3 " aria-current="page" href="#">Projects</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link text-navfont-family-3 " aria-current="page" href="#">Blog</a>
+                </li>
+
+                <li class="nav-item dropdown px-3">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link">Contact</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+      </div><!--end of col-->
+    </div><!--end of row-->
+  </div><!--end of header-->
+
+  <div class="container-fluid py-5 ">
+      <div class="row ">
+        <div class="col-12 p-0" >
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item "  id="hero_1">
+                <!-- <img src="./images/hero-carousel-1.jpg" class=" d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item active " id="hero_2">
+                <!-- <img src="./images/hero-carousel-2.jpg" class="d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item" id="hero_3">
+                <!-- <img src="./images/hero-carousel-3.jpg" class="d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item" id="hero_4">
+                <!-- <img src="./images/hero-carousel-4.jpg" class="d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item" id="hero_5">
+                <!-- <img src="./images/hero-carousel-5.jpg" class="d-block w-100" alt="..."> -->
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="fixed-content"  >
+            <p class="text-headingfont-family-2 fs-1 fw-bold p-3 mt-5" data-aos="zoom-in-up" >Welcome to <br> UpConstruction</p>
+            <hr class="border border-warning w-25  border-2 opacity-100  m-auto " data-aos="zoom-in-up" >
+            <p class="text-defaultfont-family-1 p-4 fs-5 text-light" data-aos="zoom-in-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br> commodo consequat.</p>
+            <button class="text-defaultfont-family-1 p-3 rounded-pill btn btn-outline-warning text-white" >Get Started</button>
+        </div>
+        </div><!--end of col-->
+      </div><!--end of row-->
+  </div><!--end of container-fluid(hero)-->
+
+  <div class="container-fluid py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-7 align-self-center p-5" data-aos="zoom-in-right" >
+          <h2 class="text-headingfont-family-2 text-secondary">We cannot reject them any less here.</h2>
+          <hr class="border border-warning w-25  border-2 opacity-100 " >
+          <p class="text-defaultfont-family-1">That is the reality of things. Debts are abandoned indeed, we lead the selected expedient pain. Or just herself. Let us, therefore, see them in flight. He is going to flee altogether unless we are able to say the chosen one. <br><br>
+
+            But some of them want to leave. Inventor and often. He is bound to take up the hard work of choosing them. They forsake the great ones who suffer from their needs but from the desire of their souls.</p>
+        </div><!--end of col-->
+        <div class="col-12 col-md-5 bg-light p-5 "  data-aos="zoom-in-left">
+          <form action="forms/quote.php" method="post" class="php-email-form">
+            <h4 class="text-headingfont-family-2 text-uppercase">Get a quote</h4>
+            <p class="text-defaultfont-family-1">Or we hate the hard work and here the pleasure. Inventor's whole life. Things to be repelled for linead late park flows.</p>
+            <div class="row gy-3">
+
+              <div class="col-12">
+                <input type="text" name="name" class="form-control" placeholder="Name" required="">
+              </div>
+
+              <div class="col-12 ">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="">
+              </div>
+
+              <div class="col-12">
+                <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
+              </div>
+
+              <div class="col-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+              </div>
+
+              <div class="col-12 text-center">
+                <button class="bg-warning btn btn-outline-warning text-white px-4 py-2" type="submit">Get a quote</button>
+              </div>
+
+            </div>
+          </form>
+        </div><!--end of col-->
+      </div><!--end of row-->
+    </div><!--end of container-->
+  </div><!--end of container-fluid(form)-->
+
+  <div class="container-fluid py-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 p-5" >
+            <h1 class="text-headingfont-family-2 text-center fw-bold">Constructions</h1>
+            <p class="text-defaultfont-family-1 text-center">His needs result from something he wants to escape from</p>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-6 pb-4" data-aos="fade-up-right" >
+          <div class="card  mx-auto" >
+            <div class="row   g-0">
+              <div class="col-md-5 ">
+                <img src="./images/constructions-1.jpg" class="img-fluid rounded-start h-100 w-100" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body py-4 px-5">
+                  <h5 class="card-title">All are to be chosen of the truth.</h5>
+                  <p class="card-text">Escape into pain and guilt. We may be able to gain the pleasure of being pampered in ways they don't know. When chosen by pains not truth. The services at that time are great. Pain them and</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-6 pb-4" data-aos="fade-up-left">
+          <div class="card  mx-auto" >
+            <div class="row   g-0">
+              <div class="col-md-5 ">
+                <img src="./images/constructions-2.jpg" class="img-fluid rounded-start h-100 w-100" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body py-4 px-5">
+                  <h5 class="card-title">We can assume that he wants to</h5>
+                  <p class="card-text">There are those who abandon their elders, but the pleasure of bearing things is the flattery of things. He is a laborious architect who never labored for pleasure. There are praisers, but some here. We deserve him.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-6 " data-aos="fade-up-right">
+          <div class="card  mx-auto" >
+            <div class="row   g-0">
+              <div class="col-md-5 ">
+                <img src="./images/constructions-3.jpg" class="img-fluid rounded-start h-100 w-100" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body py-4 px-5">
+                  <h5 class="card-title">The error of the happy pain finder or</h5>
+                  <p class="card-text">Tell us further. Like when in. They do not know that they are worthy of the easy trouble which everyone seeks. Nor do you owe him, but the architect hates laborious duties. As the times are, there is no fault.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-6 " data-aos="fade-up-left">
+          <div class="card  mx-auto" >
+            <div class="row   g-0">
+              <div class="col-md-5 ">
+                <img src="./images/constructions-4.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body py-4 px-5">
+                  <h5 class="card-title">It is a pleasure that they do not know</h5>
+                  <p class="card-text">Or indeed, who will receive great pain and pleasure because He them and the pain of that architect but the pain of the beatitude. Let him flee and take pains. Or something to free us from those pains.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--end of col-->
+
+      </div><!--end of row-->
+    </div><!--end of container-->
+  </div><!--end of container-fluid(constructions)-->
+
+  <div class="container-fluid py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-headingfont-family-2 text-center fw-bold">Services</h1>
+          <p class="text-defaultfont-family-1 text-center ">His needs result from something he wants to escape from</p>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-4 py-4" data-aos="zoom-in">
+          <div class="card">
+            <div class="row g-0 p-5">
+              <div class="col-12"><i class="fas fa-mountain fs-1 p-3 text-secondary"></i></div>
+              <div class="col-12"><h4 class="text-headingfont-family-2 text-secondary py-3">They do not know Mete</h4></div>
+              <div class="col-12"><small class="text-defaultfont-family-1"> Tell us further. Like when in. They do not know that they are worthy of the easy trouble which everyone seeks. Nor do you owe him </small></div>
+              <div class="col-12 py-3"><a href="" class="text-decoration-none text-secondary ">Read More --></a></div>
+            </div>
+          </div><!--end of card-->
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-4 py-4" data-aos="zoom-in">
+          <div class="card">
+            <div class="row g-0 p-5">
+              <div class="col-12"><i class="fas fa-mountain fs-1 p-3 text-secondary"></i></div>
+              <div class="col-12"><h4 class="text-headingfont-family-2 text-secondary py-3">They do not know Mete</h4></div>
+              <div class="col-12"><small class="text-defaultfont-family-1"> Tell us further. Like when in. They do not know that they are worthy of the easy trouble which everyone seeks. Nor do you owe him </small></div>
+              <div class="col-12 py-3"><a href="" class="text-decoration-none text-secondary ">Read More --></a></div>
+            </div>
+          </div><!--end of card-->
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-4 py-4" data-aos="zoom-in">
+          <div class="card">
+            <div class="row g-0 p-5">
+              <div class="col-12"><i class="fas fa-mountain fs-1 p-3 text-secondary"></i></div>
+              <div class="col-12"><h4 class="text-headingfont-family-2 text-secondary py-3">They do not know Mete</h4></div>
+              <div class="col-12"><small class="text-defaultfont-family-1"> Tell us further. Like when in. They do not know that they are worthy of the easy trouble which everyone seeks. Nor do you owe him </small></div>
+              <div class="col-12 py-3"><a href="" class="text-decoration-none text-secondary ">Read More --></a></div>
+            </div>
+          </div><!--end of card-->
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-4 " data-aos="zoom-in">
+          <div class="card">
+            <div class="row g-0 p-5">
+              <div class="col-12"><i class="fas fa-mountain fs-1 p-3 text-secondary"></i></div>
+              <div class="col-12"><h4 class="text-headingfont-family-2 text-secondary py-3">They do not know Mete</h4></div>
+              <div class="col-12"><small class="text-defaultfont-family-1"> Tell us further. Like when in. They do not know that they are worthy of the easy trouble which everyone seeks. Nor do you owe him </small></div>
+              <div class="col-12 py-3"><a href="" class="text-decoration-none text-secondary ">Read More --></a></div>
+            </div>
+          </div><!--end of card-->
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-4 " data-aos="zoom-in">
+          <div class="card">
+            <div class="row g-0 p-5">
+              <div class="col-12"><i class="fas fa-mountain fs-1 p-3 text-secondary"></i></div>
+              <div class="col-12"><h4 class="text-headingfont-family-2 text-secondary py-3">They do not know Mete</h4></div>
+              <div class="col-12"><small class="text-defaultfont-family-1"> Tell us further. Like when in. They do not know that they are worthy of the easy trouble which everyone seeks. Nor do you owe him </small></div>
+              <div class="col-12 py-3"><a href="" class="text-decoration-none text-secondary ">Read More --></a></div>
+            </div>
+          </div><!--end of card-->
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-4 " data-aos="zoom-in">
+          <div class="card">
+            <div class="row g-0 p-5">
+              <div class="col-12"><i class="fas fa-mountain fs-1 p-3 text-secondary"></i></div>
+              <div class="col-12"><h4 class="text-headingfont-family-2 text-secondary py-3">They do not know Mete</h4></div>
+              <div class="col-12"><small class="text-defaultfont-family-1"> Tell us further. Like when in. They do not know that they are worthy of the easy trouble which everyone seeks. Nor do you owe him </small></div>
+              <div class="col-12 py-3"><a href="" class="text-decoration-none text-secondary ">Read More --></a></div>
+            </div>
+          </div><!--end of card-->
+        </div><!--end of col-->
+
+      </div><!--end of row-->
+    </div><!--end of container-->
+  </div><!--end of container-fluid(services)-->
+
+  <div class="container-fluid py-5">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-12 col-md-7" data-aos="zoom-out-right">
+          <img src="./images/alt-services.jpg" class="img-fluid h-100 w-100" alt="" srcset="">
+        </div><!--end of col-->
+
+        
+        <div class="col-12 col-md-5 " data-aos="zoom-out-left">
+          <div class="col-12">
+            <h2 class="text-headingfont-family-2 fw-bold">For he who is in the pursuit of pleasures should avoid something</h2>
+            <hr class="border border-warning border-2 w-25 opacity-100">
+          </div><!--end of inner col-->
+          <div class="col-12 ">
+            <p class="text-defaultfont-family-1 text-secondary">To be a pleasure or an exercise. We are here to reject the accusation. Not the very least, but the times of praise. They are freed from pleasure, but they will suffer bodily pains</p>
+          </div><!--end of inner col-->
+          <div class="col-12 py-3">
+            <div class="row">
+            <div class="col-2"><i class="fas fa-chalkboard text-warning fs-1 "></i></div><!--end of sub inner col-->
+            <div class="col-10"> 
+              <div class="col-12"><h5 class="text-headingfont-family-2 fw-bold">Thank you very much</h5></div>
+              <div class="col-12"> <small class="text-secondary text-secondary ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima veritatis enim suscipit dignissimos consequuntur.</small></div>
+            </div><!--end of sub inner col-->
+          </div><!--end of sub inner row-->
+          </div><!--end of inner col-->
+          <div class="col-12 py-2">
+            <div class="row">
+            <div class="col-2"><i class="fas fa-check-circle text-warning fs-1 "></i></div><!--end of sub inner col-->
+            <div class="col-10"> 
+              <div class="col-12"><h5 class="text-headingfont-family-2 fw-bold">No One</h5></div>
+              <div class="col-12"> <small class="text-secondary text-secondary ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima veritatis enim suscipit dignissimos consequuntur.</small></div>
+            </div><!--end of sub inner col-->
+          </div><!--end of sub inner row-->
+          </div><!--end of inner col-->
+          <div class="col-12 py-2">
+            <div class="row">
+            <div class="col-2"><i class="far fa-sun text-warning fs-1 "></i></div><!--end of sub inner col-->
+            <div class="col-10"> 
+              <div class="col-12"><h5 class="text-headingfont-family-2 fw-bold">Dine Pad</h5></div>
+              <div class="col-12"> <small class="text-secondary text-secondary ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima veritatis enim suscipit dignissimos consequuntur.</small></div>
+            </div><!--end of sub inner col-->
+          </div><!--end of sub inner row-->
+          </div><!--end of inner col-->
+          <div class="col-12 py-2">
+            <div class="row">
+            <div class="col-2"><i class="far fa-sun text-warning fs-1 "></i></div><!--end of sub inner col-->
+            <div class="col-10"> 
+              <div class="col-12"><h5 class="text-headingfont-family-2 fw-bold">Three cloves</h5></div>
+              <div class="col-12"> <small class="text-secondary text-secondary ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima veritatis enim suscipit dignissimos consequuntur.</small></div>
+            </div><!--end of sub inner col-->
+          </div><!--end of sub inner row-->
+          </div><!--end of inner col-->
+        </div><!--end of col-->
+
+      </div><!--end of row-->
+    </div><!--end of container-->
+  </div><!--end of container-fluid(alt service)-->
+
+  <div class="container-fluid py-5 bg-light" id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 py-5">
+          <h2 class="text-center text-headingfont-family-2 fw-bold opacity-75">Testimonials</h2>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-6">
+          <div class="card border-0">
+            <img src="./images/testimonials-1.jpg" class=" w-25  rounded-circle" alt="...">
+            <div class="card-body">
+              <p class="card-text fs-5">"It's a pain in the ass, it's going to be followed by an adipiscing developer."
+                Do they provide for those who are mildly afflicted?</p>
+              <p class="text-success fs-5">JAMES SMITH</p>
+            </div>
+          </div>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-6">
+          <div class="card border-0">
+            <img src="./images/testimonials-2.jpg" class="w-25 rounded-circle" alt="...">
+            <div class="card-body">
+              <p class="card-text fs-5">"It's a pain in the ass, it's going to be followed by an adipiscing developer."
+                Do they provide for those who are mildly afflicted?</p>
+              <p class="text-success fs-5">KATE SMITH</p>
+            </div>
+          </div>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-6">
+          <div class="card border-0">
+            <img src="./images/testimonials-3.jpg" class=" w-25 rounded-circle" alt="...">
+            <div class="card-body">
+              <p class="card-text fs-5">"It's a pain in the ass, it's going to be followed by an adipiscing developer."
+                Do they provide for those who are mildly afflicted?</p>
+              <p class="text-success fs-5">CLARIE ANDERSON</p>
+            </div>
+          </div>
+        </div><!--end of col-->
+
+        <div class="col-12 col-md-6">
+          <div class="card border-0">
+            <img src="./images/testimonials-4.jpg" class="w-25 rounded-circle" alt="...">
+            <div class="card-body">
+              <p class="card-text fs-5">"It's a pain in the ass, it's going to be followed by an adipiscing developer."
+                Do they provide for those who are mildly afflicted?</p>
+              <p class="text-success fs-5">DAN SMITH</p>
+            </div>
+          </div>
+        </div><!--end of col-->
+
+
+      </div><!-- end of row-->
+    </div><!--end of conatiner-->
+  </div><!--end of testimonial-->
+
+  <div class="container-fluid my-5" id="recent_post">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center opacity-75">Recent Blog Posts</h2>
+
+          <div class="row py-3">
+            <div class="col-12 col-md-4" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500">
+              <div class="card h-100">
+                <img src="./images/blog-1.jpg">
+                <div class="card-body">
+                  <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of
+                    the card's content.</p>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#" class="text-dark text-decoration-none"><i class="far fa-user text-warning"></i>
+                          Julia Parker</a></li>
+                      <li class="breadcrumb-item active" aria-current="page"><i class="far fa-folder-open text-warning"></i>Politics
+                      </li>
+                    </ol>
+                  </nav>
+                  <button type="button" class="btn btn-link py-2 px-0  text-decoration-none text-secondary opacity-75">Read More <i
+                      class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div><!--end of col-->
+
+            <div class="col-12 col-md-4" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500">
+              <div class="card h-100">
+                <img src="./images/blog-2.jpg">
+                <div class="card-body">
+                  <p class="card-text fs-5">And to be repulsed by trouble which is but all</p>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#" class="text-dark text-decoration-none"><i class="far fa-user text-warning"></i>
+                          Mario Douglas</a></li>
+                      <li class="breadcrumb-item active" aria-current="page"><i class="far fa-folder-open text-warning"></i>Sports
+                      </li>
+                    </ol>
+                  </nav>
+                  <button type="button" class="btn btn-link py-2 px-0 text-secondary text-decoration-none opacity-75">Read More <i
+                      class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div><!--end of col-->
+
+            <div class="col-12 col-md-4" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500">
+              <div class="card h-100">
+                <img src="./images/blog-3.jpg">
+                <div class="card-body">
+                  <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of
+                    the card's content.</p>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item "><a href="#" class="text-dark text-decoration-none"><i class="far fa-user text-warning"></i>
+                          Lisa Hunter</a></li>
+                      <li class="breadcrumb-item active" aria-current="page"><i class="far fa-folder-open text-warning" ></i>Economics
+                      </li>
+                    </ol>
+                  </nav>
+                  <button type="button" class="btn btn-link py-2 px-0 text-secondary opacity-75 text-decoration-none">Read More <i
+                      class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div><!--end of col-->
+
+          </div>
+
+        </div><!-- end of col-->
+      </div><!-- end of row-->
+    </div><!-- end of container-->
+  </div><!--end of recent_post-->
+
+  <div class="container-fliud p-2 pt-5 bg-light" id="contact">
+    <div class="container">
+        <div class="row p-5">
+            <div class="col-12 col-md-6">
+                <p class="py-2 text-secondary"><i class="fas fa-map-marker-alt"></i> 1500 Treat Ave, Suite 200  +604-680-9785
+                    San Francisco, CA 94110</p>
+                <p class="text-secondary"> <i class="fas fa-envelope"></i> vctung@outlook.com</p>
+                <p class="text-secondary"><i class="fas fa-phone-alt"></i> 1-800-800-2299 (Support)</p>
+            </div><!--end of col-->
+            <div class="col-12 col-md-6 col-lg-2">
+                <h5 class="text-secondary">Community</h5>
+                <ul  class="list-unstyled ">
+                    <li><a href="" class="text-secondary text-decoration-none">Learners</a></li>
+                    <li><a href="" class="text-secondary text-decoration-none">Partners</a></li>
+                    <li><a href="" class="text-secondary text-decoration-none">Developers</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Beta Testers</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Translators</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Blog</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Tech Blog</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Teaching Center</a></li>
+                </ul>
+            </div><!--end of col-->
+            <div class="col-12 col-md-6 col-lg-2">
+                <h5 class="text-secondary">Informations</h5>
+                <ul  class="list-unstyled ">
+                    <li><a href="" class="text-secondary text-decoration-none">About</a></li>
+                    <li><a href="" class="text-secondary text-decoration-none">Pricing</a></li>
+                    <li><a href="" class="text-secondary text-decoration-none">Blog</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Careers</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Contact</a></li>
+                </ul>
+            </div><!--end of col-->
+            <div class="col-12 col-md-6 col-lg-2">
+                <h5 class="text-secondary">More</h5>
+                <ul  class="list-unstyled ">
+                    <li><a href="" class="text-secondary text-decoration-none">Press</a></li>
+                    <li><a href="" class="text-secondary text-decoration-none">Investor</a></li>
+                    <li><a href="" class="text-secondary text-decoration-none">Terms</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Privacy</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Help</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Accessibility</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Contact</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Articles</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none">Directory</a></li>
+                    <li><a href=""class="text-secondary text-decoration-none ">Affilates</a></li>
+                </ul>
+            </div><!--end of col-->
+        </div><!--end of row-->
+    </div><!--end of container-->
+</div><!--end of container-fluid (contact)-->
+
+<div class="container-fluid bg-light  ">
+  <div class="row text-center px-5">
+      <div class="col-12 col-md-6">
+          <h6>All rights Reserved © Your Company, 2021</h6>
+      </div><!--end of col-->
+      <div class="col-12 col-md-6">
+          <p>Made with <i class="fas fa-heart text-danger"></i>  by <span class="fw-bold">ThemeWagon</span> </p>
+      </div><!--end of col-->
+  </div><!--end of row-->
+</div><!--end of container-fluid (footer)-->
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script><!--bootstrap-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--AOS-->
+  <script>
+    AOS.init();
+  </script><!--Initialize AOS -->
+</body>
+
+</html>

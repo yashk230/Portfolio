@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root{
+    --bs-font-family-1: "DM Serif Display", serif;
+    --bs-font-family-2: "Rubik", serif;
+}
+
+.text-font-family-1{
+    font-family: var(--bs-font-family-1);
+}
+
+.text-font-family-2 {
+    font-family: var(--bs-font-family-2);
+}
+
+#heroln2{
+    font-size: 62px;
+}
+
+#add{
+    background-color: rgb(12, 11, 75);
+    margin-top: -40px;
+}
+#clock{
+    font-size: 60px;
+}
+
+#Feedback{
+    /* margin-bottom: -300px; */
+}
+#Feedback_div{
+    position: absolute;
+   padding:10px 180px 10px 180px ;
+   border-radius: 5px;
+   margin-left: 48px;
+   margin-right: 48px;
+   margin-top: -48px;
+
+}
+
+#counter{
+    background-image: url(file:///D:/First%20Project/templates/themewangon_100_template_23082023/free-bundle-2022/010%20little-squirrel-v1.0.0/public/assets/img/gallery/funfacts-2-bg.png);
+    background-position:center;
+    background-size:cover;
+}
+
+#contact{
+    background-color: rgb(12, 11, 75);
+}
+
+/* General hover effect for buttons */
+.btn:hover {
+    background-color: #0056b3; /* Change to a darker shade */
+    color: white; /* Change text color */
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: scale(1.01); /* Slightly enlarge the card */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+/* Hover effect for links */
+a:hover {
+   
+    color: #0056b3; /* Change link color */
+}
+
+/* Hover effect for images */
+.img-hover:hover {
+    opacity: 0.8; /* Slightly fade the image */
+}
+
+/* Hover effect for list group items */
+.list-group-item:hover {
+    background-color: #f8f9fa; /* Change background color */
+    color: #0056b3; /* Change text color */
+}
+
+/* Hover effect for navbar items */
+.navbar-nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+    color: #0056b3; /* Change text color */
+}

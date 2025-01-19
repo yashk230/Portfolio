@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--bootstrap link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet"><!--font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /><!--fontaweseome-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+</head>
+
+<body id="body">
+    <div class="container-fluid  fixed-top" data-aos="fade-down" >
+            <div class="row ">
+                <nav class="navbar navbar-expand-lg ps-5  bg-white" data-aos="fade-down">
+                    <div class="container-fluid">
+                      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                      <img src="./images/home-right.png" class="img-fluid rounded-circle"  id="logo" data-aos="zoom-in">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+                          <li class="nav-item px-3">
+                            <a class="nav-link active text-1 " aria-current="page" href="#home">Home</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link text-1 " href="#about">About</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link text-1" href="#capabilities">Capabilities</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link text-1" href="#projects">Projects</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link text-1" href="#contact">Contact</a>
+                          </li>
+                          <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li> -->
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div><!--end of row-->
+    </div><!--end of container-fluid (header)-->
+
+    <div id="home" class="container-fluid py-5 h-auto " data-aos="fade-up" >
+        <div class="container ">
+            <div class="row " >
+                <div class="col-12 col-md-6 py-5" data-aos="fade-right">
+                  <h2 class="text-2 p-2 pt-5">Hello, <span class="span" id="typing"></span></h2>
+                  <script class="span text-2  p-2  " >
+                    
+                      const text = "I'm  YASH KARANJULE";
+                      let index = 0;
+                      function type() {
+                          if (index < text.length) {
+                              document.getElementById("typing").innerHTML += text.charAt(index);
+                              index++;
+                              setTimeout(type, 100);
+                          }
+                      }
+                      type();
+                  </script>
+                    <h3 class="text-2 fw-normal p-2">Full Stack Developer</h3>
+                    <button class=" btn-1 "  > <a href="#about" class="text-decoration-none color-2"> About</a> </button>
+                    <button class="btn-2"><a href="./RESUME (s).pdf" target="_blank" class="text-decoration-none "  id="r-b">Resume</a></button>
+                </div><!--end of col-->
+                <div class="col-12 col-md-6" data-aos="fade-left"data-aos="fade-left">
+                    <img src="./images/home-right.png " class="img-fluid" alt="" srcset="">
+                </div><!--end of col-->
+            </div><!--end of row-->
+        </div><!--end of container-->
+    </div><!--end of container-fluid (hero)-->
+
+    <div id="about" class="container-fluid pt-5 h-auto " data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6" data-aos="fade-right">
+                    <img src="./images/about-us.png"  class="img-fluid" srcset="">
+                </div><!--end of col-->
+                <div class="col-12 col-md-6"  data-aos="fade-left">
+                    <h2 class="text-2 fw-bold">LET'S</h2>
+                    <h2 class="text-2 fw-bold">INTRODUCE ABOUT</h2>
+                    <h2 class="text-2 fw-bold">MYSELF</h2>
+                    <p class="text-1 fw-lighter">Hello! I'm <span class="span fw-normal"> Yash Karanjule </span>,<br>
+                        A passionate Django Developer with a strong foundation in back-end technologies. With experience in creating dynamic, user-friendly web applications, I thrive on transforming ideas into functional solutions. My expertise spans a variety of programming languages and frameworks, including Python, Django, HTML, CSS, and JavaScript.
+                        I enjoy tackling complex challenges and continuously learning new skills to stay updated with industry trends. My goal is to build scalable applications that enhance user experience and drive business success. Let's connect and explore how I can contribute to your next project!</p>
+                        <button class="btn-2"><a href="./RESUME (s).pdf" target="_blank" class="text-decoration-none "  id="r-b">Resume</a></button>
+                </div><!--end of col-->
+            </div><!--end of row-->
+        </div><!--end of container-->
+    </div><!--end of container-fluid  (about)-->
+
+    <div  class="container-fluid  py-5 h-auto"  data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+              <div class="col-12"  data-aos="fade-left"> <h1 class="text-2 text-center py-3 color-1">Education </h1></div>
+                <div class="col-12 ">
+                    <!--first section-->
+    <div class="row align-items-center how-it-works d-flex" data-aos="fade-up">
+        <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+          <div class="circle font-weight-bold">1</div>
+        </div>
+        <div class="col-6">
+          <h5 class="text-2 fs-5">2016</h5>
+          <h3 class="text-2 fs-4">Secondary School</h3>
+          <h4 class="text-1 fs-6">From- R.M.Dhariwal English Medium School Shirur Pune</h4>
+          <p class="text-1 fs-6">Completed</p>
+        </div>
+      </div>
+      <!--path between 1-2-->
+      <div class="row timeline" data-aos="fade-up">
+        <div class="col-2">
+          <div class="corner top-right"></div>
+        </div>
+        <div class="col-8">
+          <hr/>
+        </div>
+        <div class="col-2">
+          <div class="corner left-bottom"></div>
+        </div>
+      </div>
+      <!--second section-->
+      <div class="row align-items-center justify-content-end how-it-works d-flex" data-aos="fade-up">
+        <div class="col-6 text-right">
+          <h5 class="text-2 fs-5">2018-20</h5>
+          <h3 class="text-2 fs-4">Higher Secondary School</h3>
+          <h4 class="text-1 fs-6">From- Vidhyadham Prashala Junior Collage Shirur Pune</h4>
+          <p class="text-1 fs-6">Completed</p>
+        </div>
+        <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+          <div class="circle font-weight-bold">2</div>
+        </div>
+      </div>
+      <!--path between 2-3-->
+      <div class="row timeline" data-aos="fade-up">
+        <div class="col-2">
+          <div class="corner right-bottom"></div>
+        </div>
+        <div class="col-8">
+          <hr/>
+        </div>
+        <div class="col-2">
+          <div class="corner top-left"></div>
+        </div>
+      </div>
+      <!--third section-->
+      <div class="row align-items-center how-it-works d-flex" data-aos="fade-up">
+        <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+          <div class="circle font-weight-bold">3</div>
+        </div>
+        <div class="col-6">
+          <h5 class="text-2 fs-5">2020-23</h5>
+          <h3 class="text-2 fs-4">Graduation</h3>
+          <h4 class="text-1 fs-6">From- C.T.Bora College of Science & Commerce Shirur Pune</h4>
+          <p class="text-1 fs-6">Completed</p>
+        </div>
+      </div>
+      <!--path between 3-4-->
+      <div class="row timeline" data-aos="fade-up">
+        <div class="col-2">
+          <div class="corner top-right"></div>
+        </div>
+        <div class="col-8">
+          <hr/>
+        </div>
+        <div class="col-2">
+          <div class="corner left-bottom"></div>
+        </div>
+      </div>
+      <!--fourth section-->
+      <div class="row align-items-center justify-content-end how-it-works d-flex" data-aos="fade-up">
+        <div class="col-6 text-right">
+          <h5 class="text-2 fs-5">2023-25</h5>
+          <h3 class="text-2 fs-4">PG</h3>
+          <h4 class="text-1 fs-6">From- Abasaheb Garware College Deccen Pune</h4>
+          <p class="text-1 fs-6">Pursing</p>
+        </div>
+        <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+          <div class="circle font-weight-bold">4</div>
+        </div>
+      </div>
+      <!--path between 4-5-->
+      <div class="row timeline" data-aos="fade-up">
+        <div class="col-2">
+          <div class="corner right-bottom"></div>
+        </div>
+        <div class="col-8">
+          <hr/>
+        </div>
+        <div class="col-2">
+          <div class="corner top-left"></div>
+        </div>
+      </div>
+      <!--fifth section-->
+      <div class="row align-items-center how-it-works d-flex" data-aos="fade-up">
+        <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+          <div class="circle font-weight-bold">5</div>
+        </div>
+        <div class="col-6">
+          <h5 class="text-2 fs-5">2024</h5>
+          <h3 class="text-2 fs-4">Python Full Stack</h3>
+          <h4 class="text-1 fs-6">From- ITVedant IT traning institute Pune</h4>
+          <p class="text-1 fs-6">Completed</p>
+        </div>
+      </div>
+                </div><!--end of col-->
+            </div><!--end of row-->
+        </div><!--end of container-->
+    </div><!--end of container-fluid (timeline)-->
+
+    <div id="capabilities" class="container-fluid  py-5 h-auto" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-12"  data-aos="fade-right">
+                    <h1 class="text-2 text-center pt-5 pb-2 color-1">My Capabilities</h1>
+                    <p class="text-1 fs-6 fw-lighter text-center"> As a full stack developer,
+                      I possess a strong proficiency in frontend technologies
+                      including HTML, CSS, Bootstrap, JavaScript,enabling me to create dynamic
+                      and responsive user interfaces.
+                      On the backend, I am skilled in Python and advanced frameworks
+                      such as Django, along with MySQL for robust database management,
+                      allowing me to build scalable and efficient web applications.</p>
+                </div><!--end of col-->
+                <div class="col-12 py-5">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                        <div class="col"  data-aos="zoom-in">
+                          <div class="card bg-light border-0" id="c-card">
+                            <img src="./images/s1.png " class="img-fluid" id="s-card" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-2 text-center">Frontend Development</h5>
+                              <p class="card-text text-1 fw-lighter text-center fs-6">I specialize in crafting responsive user interfaces using HTML, CSS, Bootstrap and many more</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col "  data-aos="zoom-in">
+                          <div class="card bg-light border-0" id="c-card">
+                            <img src="./images/s2.png" class="card-img-top" id="s-card" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-2 text-center">Backend Development</h5>
+                              <p class="card-text text-1 fw-lighter text-center fs-6"> Proficient in building robust server-side applications with Python and frameworks such as Django.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col"  data-aos="zoom-in">
+                          <div class="card bg-light border-0" id="c-card">
+                            <img src="./images/s3.png" class="card-img-top" id="s-card" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-2 text-center">Web Design</h5>
+                              <p class="card-text text-1 fw-lighter text-center fs-6" > I create visually appealing web designs that prioritize user engagement and accessibility.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col "  data-aos="zoom-in">
+                          <div class="card bg-light border-0" id="c-card">
+                            <img src="./images/s4.png" class="card-img-top" id="s-card" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-2 text-center">UI/UX Design</h5>
+                              <p class="card-text  text-1 fw-lighter text-center fs-6 ">I develop UI/UX solutions that enhance usability and satisfaction, ensuring a seamless experience across all devices.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div><!--end of col-->
+            </div><!--end of row-->
+        </div><!--end of container-->
+    </div><!--end of container-fluid (capabilities)-->
+
+    <div id="projects" class="container-fluid py-5 h-auto" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" data-aos="fade-left"><h1 class="text-1 text-center pb-5 color-1">Projects</h1></div>
+            <div class="col-lg-4" data-aos="zoom-in">
+                <div class="card p-0 h-100" id="c-card">
+                    <div class="card-image">
+                        <img src="./images/p-1.webp" id="p-card" class="img-fluid "
+                            alt="">
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                        <h4 class="pt-3 pb-4">Frontend Development</h4>
+                        <!-- <h5>Creative Desinger</h5> -->
+                        <button class="border-0 rounded "><a href="./frontend.html" target="_blank" class="btn-2 text-decoration-none">Explore</a></button>
+                        <!-- <ul class="social-icons d-flex justify-content-center">
+                            <li style="--i:1">
+                                <a href="#">
+                                    <span class="fab fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li style="--i:3">
+                                <a href="#">
+                                    <span class="fab fa-instagram"></span>
+                                </a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"  data-aos="zoom-in">
+                <div class="card p-0 h-100" id="c-card">
+                    <div class="card-image">
+                        <img src="./images/p-2.png" class="img-fluid" id="p-card">
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                        <h4 class="pt-3 pb-4 ">Back-end   Development</h4>
+                        <!-- <h5>Creative Desinger</h5> -->
+                        <button class="border-0 rounded "><a href="./backend.html" target="_blank" class="btn-2 text-decoration-none">Explore</a></button>
+                        <!-- <ul class="social-icons d-flex justify-content-center">
+                            <li style="--i:1">
+                                <a href="#">
+                                    <span class="fab fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li style="--i:3">
+                                <a href="#">
+                                    <span class="fab fa-instagram"></span>
+                                </a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"  data-aos="zoom-in">
+                <div class="card p-0 h-100" id="c-card">
+                    <div class="card-image">
+                        <img src="./images/p-3.jpg" class="img-fluid" id="p-card">
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                        <h4 class="pt-3 pb-4">UI/UX Design</h4>
+                        <!-- <h5>Creative Desinger</h5> -->
+                        <button class="border-0 rounded "><a href="#" class="btn-2 text-decoration-none">Explore</a></button>
+                        <!-- <ul class="social-icons d-flex justify-content-center">
+                            <li style="--i:1">
+                                <a href="#">
+                                    <span class="fab fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li style="--i:2">
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li style="--i:3">
+                                <a href="#">
+                                    <span class="fab fa-instagram"></span>
+                                </a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div><!--end of container-fluid (projects)-->
+
+    <div id="contact" class="container-fluid py-5 h-auto" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+            <h1 class="text-2 fw-bold py-3 color-1">Contact</h1>
+            <div class="row">
+                <div class="col-12 col-lg-3 py-3" data-aos="fade-right">
+                    <div class="contact_info">
+                        <div class="info_item">
+                            <h6 class="text-2"><i class="fas fa-home color-1"></i> Pune, Maharashtra</h6>
+                            <p class="text-1 fw-lighter">India</p>
+                        </div>
+                        <div class="info_item">
+                            <h6 class="text-2"><a href="tel:+919604269875" class="text-decoration-none text-dark text-2"><i class="fas fa-phone-alt color-1"></i> +91- 9604269875</a></h6>
+                            <p class="text-1 fw-lighter">Mon to Fri 9am to 6 pm</p>
+                        </div>
+                        <div class="info_item">
+                            <h6 class=""><a href="mailto:yashkaranjule230@gmail.com" class="text-decoration-none text-dark text-2"><i class="fas fa-envelope color-1"></i> yashkaranjule230@gmail.com</a></h6>
+                            <p class="text-1 fw-lighter">Feel Free to Connect!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9" data-aos="fade-left">
+                    <form class="row contact_form" action="" method="" id="contactForm" novalidate="novalidate">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Enter Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div><!--end of container-fluid (contact)-->
+
+    <div class="container-fluid pt-5 h-auto" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" id="footer">
+            <img src="./images/home-right.png" class="img-fluid rounded-circle " id="f-logo" alt="" srcset=""  >
+            <p class="text-center text-1"> Designed by <span class="span">YASH KARANJULE  </span> </p>
+          </div><!--end of col-->
+        </div><!--end of row-->
+      </div><!--end of container-->
+    </div><!--end of container-fluid (footer)-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script><!-- js link-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><!--aos js link-->
+        <script>
+            AOS.init();
+        </script>
+        <script>
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function (e) {
+                  e.preventDefault();
+                  document.querySelector(this.getAttribute('href')).scrollIntoView({
+                      behavior: 'smooth'
+                  });
+              });
+          });
+      </script>
+</body>
+
+</html>
