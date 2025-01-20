@@ -27,7 +27,7 @@
                 <nav class="navbar navbar-expand-lg ps-5  bg-white" data-aos="fade-down">
                     <div class="container-fluid">
                       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                      <img src="./images/home-right.png" class="img-fluid rounded-circle"  id="logo" data-aos="zoom-in">
+                      <a href="index.html"><img src="./images/home-right.png" class="img-fluid rounded-circle"  id="logo" data-aos="zoom-in"></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -446,6 +446,23 @@
       </div><!--end of container-->
     </div><!--end of container-fluid (footer)-->
 
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        emailjs.init("h7IMEw2C-TkFoN3ce");
+      })();
+      document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        emailjs.sendForm('service_qc58b8n', 'template_nvr1img', this)
+        .then(function(response) {
+          console.log('SUCCESS!', response.status, response.text);
+          alert('Message sent successfully!');
+        }, function(error) {
+          console.error('FAILED...', error);
+          alert('Failed to send the message. Please try again later.');
+        });
+      });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
